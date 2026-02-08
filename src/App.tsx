@@ -12,6 +12,11 @@ import { UserContext, UserState, ViewState } from './types.ts';
 import { Toaster, toast } from 'react-hot-toast';
 import { api } from './api';
 import { Shield, Loader2, Signal, WifiOff } from 'lucide-react';
+// @ts-ignore
+import {
+  AdMob,
+  // ... বাকিগুলো
+} from '@capacitor-community/admob';
 
 // --- CAPACITOR IMPORTS ---
 import { 
