@@ -431,5 +431,15 @@ app.post('/api/user/refill', verifyToken, async (req, res) => {
 app.get('/', (req, res) => {
     res.send('Backend is Running Securely');
 });
+// --- SERVE FRONTEND ---
+const path = require('path');
+
+// 'dist' ফোল্ডারটিকে স্ট্যাটিক হিসেবে সেট করা (Vite বিল্ড করলে dist তৈরি হয়)
+app.use(express.static(path.join(__dirname, 'dist')));
+
+// যেকোনো রুটে গেলে যেন index.html ফাইলটি দেখায়
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+});
 
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
