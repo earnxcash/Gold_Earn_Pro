@@ -8,7 +8,7 @@ import { ConvertView } from './views/ConvertView';
 import { AuthView } from './views/AuthView';
 import { SecurityCheck } from './components/SecurityCheck';
 import { AdOverlay } from './components/AdOverlay';
-import { UserContext, UserState, ViewState } from './types.ts;
+import { UserContext, UserState, ViewState } from './types.ts';
 import { Toaster, toast } from 'react-hot-toast';
 import { api } from './api';
 import { Shield, Loader2, Signal, WifiOff } from 'lucide-react';
