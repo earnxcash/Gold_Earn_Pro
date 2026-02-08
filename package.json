@@ -1,7 +1,7 @@
 {
   "name": "gold-earn-pro",
   "version": "1.0.0",
-  "description": "Gold Earn Pro Backend and Frontend",
+  "description": "Gold Earn Pro Full Stack App",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
