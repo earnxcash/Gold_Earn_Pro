@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/Gold_Earn_Pro/api.ts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 3981,
+          "line": 122
+        },
+        "start": {
+          "column": 0,
+          "index": 3981,
+          "line": 122
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/Gold_Earn_Pro/api.ts"
+}
