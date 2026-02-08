@@ -18,10 +18,10 @@ jobs:
         with:
           node-version: 20
 
-      -       - name: Install Dependencies
+      - name: Install Dependencies
         run: |
           npm install --force
-          npm install @capacitor-community/admob @capacitor/core @capacitor/network
+          npm install @capacitor/core @capacitor/network @capacitor-community/admob
 
       - name: Build Project
         run: npm run build
